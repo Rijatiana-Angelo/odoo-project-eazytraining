@@ -4,4 +4,4 @@ Stack composer de 2 container :
 
 Port 80 du container qui cible le port 8069 interne du container
 Les 2 containers sont monté dans la même réseau "odoo-networks"
-2 volumes de type "volume" monté sur chaque container pour la pérsistence des données
+2 volumes de type "volume"et "bind mount" monté sur chaque container pour la pérsistence des données
